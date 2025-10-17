@@ -43,7 +43,7 @@ A modern, feature-rich DLNA/UPnP media server built with Rust and Tauri, designe
 - **Streaming**: HTTP range requests for efficient video delivery
 
 
-## 🔧 Installation
+## 🔧 Configuration
 
 The server runs on port 3000 by default. Configuration is stored in `config.json`:
 
@@ -97,43 +97,12 @@ Volume control works via UPnP GENA events:
 - MPEG (.mpg, .mpeg)
 - Transport Stream (.ts, .mts)
 
-## 🔌 UPnP/DLNA Implementation
-
-### Services Implemented
-
-- **ContentDirectory**: Browse and search media content
-- **ConnectionManager**: Manage device connections
-- **AVTransport**: Control media playback
-- **RenderingControl**: Volume and mute control via GENA events
-
-### Key Features
-
-- SSDP device discovery with M-SEARCH
-- GENA event subscription for real-time updates
-- SOAP action support for device control
-- HTTP range requests for efficient streaming
-- Proper URL encoding for international characters
-
-## 🌐 Network Configuration
-
-The server automatically:
-- Detects available network interfaces
-- Prioritizes local network addresses
-- Binds to all interfaces (0.0.0.0)
-- Supports multiple simultaneous connections
-
 ## 🎨 User Interface Features
 
 ### Dark Mode
 - Automatic theme detection
 - Manual toggle available
 - Persistent preference storage
-
-### Responsive Design
-- Mobile-first approach
-- Touch-optimized controls
-- Adaptive layouts for all screen sizes
-- Compact statistics on mobile (3 columns)
 
 ### Real-time Updates
 - Live playback position
@@ -151,12 +120,6 @@ The server automatically:
 ## 📄 License
 
 MIT License - see LICENSE file for details
-
-## 🙏 Acknowledgments
-
-- Built with Rust, Axum, Tauri, and Vue.js
-- UPnP/DLNA specifications by UPnP Forum
-- Icons from Heroicons
 
 ## 📞 Support
 
