@@ -3,6 +3,9 @@
 
 A modern, feature-rich DLNA/UPnP media server built with Rust and Tauri, designed for streaming video content to DLNA-compatible devices like Smart TVs, media players, and streaming devices.
 
+<img width="320"  alt="изображение" src="https://github.com/user-attachments/assets/f452a2da-d4c6-4c2f-9f04-d578a3126e1d" />
+<img width="320" alt="изображение" src="https://github.com/user-attachments/assets/976a97ed-2814-4b20-adc5-89c0437c7aaa" /> 
+
 ## 🌟 Features
 
 ### Media Management
@@ -33,14 +36,6 @@ A modern, feature-rich DLNA/UPnP media server built with Rust and Tauri, designe
 - **Real-time Updates**: Live statistics and playback status
 - **Drag & Drop**: Easy file management
 - **Collapsible Sections**: Organize content efficiently
-
-## 🚀 Technology Stack
-
-- **Backend**: Rust with Axum web framework
-- **Frontend**: Vue.js 3 with Tailwind CSS
-- **Desktop**: Tauri for cross-platform desktop application
-- **Protocols**: UPnP/DLNA, SSDP, GENA, SOAP
-- **Streaming**: HTTP range requests for efficient video delivery
 
 
 ## 🔧 Configuration
@@ -110,13 +105,6 @@ Volume control works via UPnP GENA events:
 - File system change detection
 - Device status monitoring
 
-## 🔒 Security Considerations
-
-- Local network only (no external access by default)
-- No authentication required (designed for home networks)
-- File access limited to configured playlist folders
-- CORS enabled for web interface
-
 ## 📄 License
 
 MIT License - see LICENSE file for details
@@ -129,8 +117,7 @@ For issues and questions, please open an issue on the GitHub repository.
 
 **Note**: This is a home media server designed for local network use. Always ensure you have the rights to stream the content you're sharing.
 
-<img width="320"  alt="изображение" src="https://github.com/user-attachments/assets/f452a2da-d4c6-4c2f-9f04-d578a3126e1d" />
-<img width="320" alt="изображение" src="https://github.com/user-attachments/assets/976a97ed-2814-4b20-adc5-89c0437c7aaa" /> 
+
 
 
 
